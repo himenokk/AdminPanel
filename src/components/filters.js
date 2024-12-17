@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown, Menu, Button } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
-import '../../assets/css/filters.module.css';
+import  styles from '../assets/css/filters.module.css';
 
 
 const Filters = () => {
@@ -31,9 +31,9 @@ const Filters = () => {
 
 
   return (
-        <div className="filters">
-          <div className="filter-item">
-            <span className="filter-label">Сортировать:</span>
+        <div className={styles.filters}>
+          <div className={styles.filterItem}>
+            <span className={styles.filterLabel}>Сортировать:</span>
             <Dropdown overlay={sortMenu} trigger={['click']}>
               <Button>
                 Популярные <DownOutlined />
@@ -41,8 +41,8 @@ const Filters = () => {
             </Dropdown>
           </div>
     
-          <div className="filter-item">
-            <span className="filter-label">Категория:</span>
+          <div className={styles.filterItem}>
+            <span className={styles.filterLabel}>Категория:</span>
             <Dropdown overlay={categoryMenu} trigger={['click']}>
               <Button>
                 Все категории <DownOutlined />
@@ -50,8 +50,8 @@ const Filters = () => {
             </Dropdown>
           </div>
     
-          <div className="filter-item">
-            <span className="filter-label">Тип:</span>
+          <div className={styles.filterItem}>
+            <span className={styles.filterLabel}>Тип:</span>
             <Dropdown overlay={typeMenu} trigger={['click']}>
               <Button>
                 Фильмы и сериалы <DownOutlined />
@@ -63,3 +63,6 @@ const Filters = () => {
 };
     
 export default Filters;
+
+
+// fsd структура 

@@ -1,6 +1,6 @@
 import styles from '../assets/css/projects.module.css';
 import Sidebar from '../components/sidebar';
-import Filters from '../components/projectsComponents/filters';
+import Filters from '../components/filters';
 
 const Projects = () => {
     return (

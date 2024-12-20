@@ -1,7 +1,6 @@
 
 import './App.css';
 import Navbar from './components/navbar';
-
 import Projects from './pages/projects';
 
 function App() {

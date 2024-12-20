@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.card {
+    background-color: #FFFFFF;
+    width: fit-content;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 48px;
+    border-radius: 15px;
+}
+
+.card_image_text {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    background-color: #171717CC;
+    color: #FFFFFF;
+    padding: 4px 8px 4px 8px;
+    border-radius: 20px;
+}
+
+.card_image{
+    padding: 16px 16px 16px;
+    
+}
+
+.card_title{
+    margin-top: 16px;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card_description{
+    margin-top: 8px;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.card_bottom{
+    margin-left: 16px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card_bottom_left{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+    height: 16px;
+    display: flex; 
+    align-items: center; 
+    gap: 4px; 
+}
+
+.card_bottom_right {
+    height: 12px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-right: 18px;
+}
+
+
+button {
+    all: unset; /* Сбрасываем все стили кнопки */
+    cursor: pointer; /* Добавляем указатель */
+    display: inline-flex; /* Для правильного размещения содержимого (например, иконок) */
+    align-items: center; /* Центрируем содержимое */
+    padding: 0; /* Убираем отступы */
+}
+
+

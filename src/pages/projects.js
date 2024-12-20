@@ -1,6 +1,7 @@
 import styles from '../assets/css/projects.module.css';
 import Sidebar from '../components/sidebar';
-import Filters from '../components/filters';
+import Filters from '../components/projectsComponents/filters';
+import Card from '../components/projectsComponents/card'
 
 const Projects = () => {
     return (
@@ -33,10 +34,8 @@ const Projects = () => {
 
             <div className= {styles.project_header_bot}>
               <Filters />
-
-              <div className={styles.year}>
-                <p>Выберите год</p>
-              </div>
+              <Card />
+             
             </div>
 
           </div>

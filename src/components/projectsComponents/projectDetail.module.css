@@ -1,0 +1,169 @@
+
+.Breadcrumb {
+    margin-top: 40px;
+    margin-left: 48px;
+}
+.projectDetail{
+    width: 100%;
+}
+.projectDetail_container{
+    margin-top: 40px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 20px;
+
+}
+
+.projectDetail_header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-right: 20px;
+}
+
+.projectDetail_header_top_left {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.projectDetail_header_top_right{
+    display: flex;
+    gap: 16px;
+}
+.edit_button{
+    background-color: #F3F6F8;
+    padding: 8px 24px 8px 24px;
+    border-radius: 16px;
+}
+.delete_button {
+    background-color: #DE350B;
+    width: 36px;
+    height: 36px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectDetail_header_bottom{
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+.projectDetail_header_bottom_item{
+    display: flex;
+    gap: 8px;
+    color: #8F92A1;
+    font-size: 14px;
+}
+
+
+.video {
+    position: relative;
+    margin-top: 32px;
+    overflow: hidden; 
+    height: 0; 
+    padding-top: 45.25%; 
+    border: 1px solid black;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.season{
+    display: flex;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+.season_item{
+    background-color: #8F92A11A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    width: 97px;
+    height: 32px;
+}   
+
+.season_item:nth-child(1){
+    background-color: #0052CC1A;
+    color: #0052CC;
+}
+
+.series {
+    display: flex;
+    margin-top: 16px;
+    gap:24px;
+    color: #8F92A1;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 32px;
+}
+
+.description_title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #171717;
+}
+
+.description_detail{
+    margin-top: 32px;
+    margin-right: 32px;
+
+}
+
+.director{
+    font-size: 16px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.director_item{
+    display: flex;
+}
+
+.director_left {
+    font-size: 14px;
+    color: #8F92A1;
+    width: 80px;
+    margin-right: 30px;
+}
+
+.line{
+    background-color: #8F92A1;
+    height: 1px;
+    margin-right: 32px;
+    margin-top: 34px;    
+    margin-bottom: 30px;
+}
+
+.screenshots_container{
+    display: grid;
+    margin-right: 32px;
+    padding-bottom: 32px;
+    margin-top: 32px;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 140px 140px;
+    gap: 16px;
+}
+
+.screenshots_item{
+    background-color: #8F92A133;
+    border-radius: 5px;
+
+}

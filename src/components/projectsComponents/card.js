@@ -4,6 +4,11 @@ import watched from '../../assets/images/watched.svg';
 import edit from '../../assets/images/edit.svg';
 import deleteImg from '../../assets/images/delete.svg';
 
+
+
+
+
+
 const Card = () =>{
     return (
         <div>

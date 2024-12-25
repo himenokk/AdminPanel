@@ -2,7 +2,9 @@ import styles from './projects.module.css';
 import ProjectNavbar from '../components/projectsComponents/addProjects';
 import Sidebar from '../components/sidebar';
 import Filters from '../components/projectsComponents/filters';
-import Card from '../components/projectsComponents/card'
+import Card from '../components/projectsComponents/card';
+import ProjectDetail from '../components/projectsComponents/projectDetail';
+import RightSideBar from '../components/projectsComponents/rightSideBar';
 
 const Projects = () => {
     return (
@@ -12,11 +14,16 @@ const Projects = () => {
         </div>
         
         <div className={styles.inner_container}>
-          <ProjectNavbar />
-        
+          {/* <ProjectNavbar />
           <Filters />
-          <Card />
+          <Card /> */}
+
+          <div className={styles.detail_container}>
+              <ProjectDetail />
+            </div>
         </div>
+        <RightSideBar />
+        
       </div>
      
       );
